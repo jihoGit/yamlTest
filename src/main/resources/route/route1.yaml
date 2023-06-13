@@ -1,0 +1,8 @@
+- route:
+    from:
+      uri: platform-http:/platform/{id}
+      parameters:
+        httpMethodRestrict: GET
+      steps:
+        - log:
+            message: ${id}

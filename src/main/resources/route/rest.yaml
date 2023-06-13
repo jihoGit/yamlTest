@@ -1,0 +1,6 @@
+- rest:
+    id: rest-3f0d
+    get:
+      - id: get-f9d0
+        to: direct:{routeId}
+        path: /route1/{routeId}
